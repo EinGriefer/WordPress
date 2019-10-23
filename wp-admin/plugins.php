@@ -346,9 +346,9 @@ if ( $action ) {
 				<p>
 				<?php
 				if ( $data_to_delete ) {
-					_e( 'Are you sure you want to delete these files and data?' );
+					_e( 'Are you sure you want to delete these files and data? You can not undo that.' );
 				} else {
-					_e( 'Are you sure you want to delete these files?' );
+					_e( 'Are you sure you want to delete these files? You can not undo that.' );
 				}
 				?>
 				</p>
